@@ -14,7 +14,7 @@ Set up initial account as child account
 
 ## Set privileges
 * Log into parent account
-* To check groups, run `groups [parents]
+* To check groups, run `groups [parents]`
 * ```bash
   $ sudo adduser parents adm
   $ sudo adduser parents cdrom
