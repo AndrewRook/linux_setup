@@ -24,6 +24,7 @@ Following [this guide](https://linuxmint-installation-guide.readthedocs.io/en/la
 ## Set up DNS with dnsmasq
 * Log into parent account
 * add `DNSStubListener=no` in `/etc/systemd/resolved.conf`.
+* `$ sudo systemctl restart systemd-resolved`.
 * add `dns=none` in `[main]` section of `/etc/NetworkManager/NetworkManager.conf`.
 * <May have to replace `/etc/resolv.conf` with `nameserver 127.0.0.53` (be careful to save a backup of the original symlink)>
 * `$ sudo systemctl restart NetworkManager`
