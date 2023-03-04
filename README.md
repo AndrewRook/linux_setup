@@ -4,7 +4,8 @@ This is almost certainly not the best way to do it, but it's what worked for me.
 
 ## Install Linux Mint from USB thumbstick
 Following [this guide](https://linuxmint-installation-guide.readthedocs.io/en/latest/)
-Set up initial account as child account
+
+Set up initial account as parent account
 
 ## Create parent account
 * Log into the kid account
