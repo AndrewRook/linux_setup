@@ -5,7 +5,8 @@ This is almost certainly not the best way to do it, but it's what worked for me.
 ## Install Linux Mint from USB thumbstick
 Following [this guide](https://linuxmint-installation-guide.readthedocs.io/en/latest/)
 
-Set up initial account as parent account
+* Set up initial account as parent account
+* Follow startup guide, especially installing updates
 
 ## Create parent account
 * Log into the kid account
@@ -64,3 +65,6 @@ _May need to set up dnsmasq to start at boot, not sure_
   server=/github.com/8.8.8.8
   <etc>
   ```
+
+
+* Add kid account to backups
