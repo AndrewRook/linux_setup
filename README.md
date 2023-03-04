@@ -9,7 +9,7 @@ Following [this guide](https://linuxmint-installation-guide.readthedocs.io/en/la
 * Set download mirrors to (If you don't you'll need to update what's in the dnsmasq conf to whatever you do choose):
   * mirror.cs.jmu.edu
   * James Madison
-* Follow startup guide, especially installing updates
+* Follow startup guide, especially installing updates and firewall.
 
 ## Create parent account
 * Log into the kid account
