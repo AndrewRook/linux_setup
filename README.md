@@ -11,25 +11,8 @@ Following [this guide](https://linuxmint-installation-guide.readthedocs.io/en/la
   * James Madison
 * Follow startup guide, especially installing updates and firewall.
 * Install additional language packs by clicking on system reports in the taskbar.
+* Reboot
 
-## Create parent account
-* Log into the kid account
-* ```bash
-  $ sudo adduser parents
-  $ sudo usermod -aG sudo parents
-  ```
-
-## Set privileges
-* Log into parent account
-* To check groups, run `groups [parents]`
-* ```bash
-  $ sudo adduser parents adm
-  $ sudo adduser parents cdrom
-  $ sudo adduser parents lpadmin
-  $ sudo adduser parents plugdev
-  $ sudo deluser danielle sudo
-  ```
- 
 ## Install Stuff
 * Log into parent account
 * ```bash
@@ -70,5 +53,23 @@ _May need to set up dnsmasq to start at boot, not sure_
   <etc>
   ```
 
+## Create parent account
+* Log into the kid account
+* ```bash
+  $ sudo adduser parents
+  $ sudo usermod -aG sudo parents
+  ```
+
+## Set privileges
+* Log into parent account
+* To check groups, run `groups [parents]`
+* ```bash
+  $ sudo adduser parents adm
+  $ sudo adduser parents cdrom
+  $ sudo adduser parents lpadmin
+  $ sudo adduser parents plugdev
+  $ sudo deluser danielle sudo
+  ```
+ 
 
 * Add kid account to backups
