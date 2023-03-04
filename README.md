@@ -6,6 +6,9 @@ This is almost certainly not the best way to do it, but it's what worked for me.
 Following [this guide](https://linuxmint-installation-guide.readthedocs.io/en/latest/)
 
 * Set up initial account as parent account
+* Set download mirrors to (If you don't you'll need to update what's in the dnsmasq conf to whatever you do choose):
+  * mirror.cs.jmu.edu
+  * James Madison
 * Follow startup guide, especially installing updates
 
 ## Create parent account
