@@ -10,6 +10,7 @@ Following [this guide](https://linuxmint-installation-guide.readthedocs.io/en/la
   * mirror.cs.jmu.edu
   * James Madison
 * Follow startup guide, especially installing updates and firewall.
+* Install additional language packs by clicking on system reports in the taskbar.
 
 ## Create parent account
 * Log into the kid account
