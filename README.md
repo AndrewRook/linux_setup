@@ -67,6 +67,8 @@ _May need to set up dnsmasq to start at boot, not sure_
   server=/getpocket.com/8.8.8.8
   <etc>
   ```
+  
+* `$ sudo systemctl restart dnsmasq`
 
 ## Create parent account
 * Log into the kid account
