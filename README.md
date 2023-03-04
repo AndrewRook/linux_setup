@@ -69,5 +69,7 @@ _May need to set up dnsmasq to start at boot, not sure_
 * `$ sudo systemctl restart dnsmasq`
 
 ## Create kid account
-* Follow [these instructions](https://www.technipages.com/linux-mint-how-to-add-a-new-user). The kid account is a standard user (not admin)
+* Follow [these instructions](https://www.technipages.com/linux-mint-how-to-add-a-new-user). The kid account is a standard user (not admin).
+* Set an initial password, then `$ sudo passwd -e [username]` to force them to change it next time they log in. 
 * Add kid account to Timeshift (backups), if using. 
+* 
